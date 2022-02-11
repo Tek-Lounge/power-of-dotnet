@@ -31,9 +31,10 @@
     <div class="col-md-8">
         @foreach (var news in Model?.Data)
         {
+            var className = news.Image != null ? "col-md-8" : "col-md-12";
             <div class="card mb-3">
                 <div class="row g-0">
-                    <div class="@( news.Image != null ? "col-md-8" : "col-md-12" )">
+                    <div class="@className">
                         <div class="card-body">
                             <h5 class="card-title"><a class="link-dark" href="@news.URL" target="_blank">@news.Title</a></h5>
                             <p class="card-text">@news.Description</p>
