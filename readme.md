@@ -23,5 +23,8 @@ If you are interested to learn .NET in depth, the following links would be help:
 3. https://docs.microsoft.com/en-us/learn/dotnet/
 4. https://docs.microsoft.com/en-us/dotnet/
 
+### Presentation
+[Power of .NET](Presentation.pdf)
+
 ### Author
 [Yashvit Naik](https://www.linkedin.com/in/yashvit/)
